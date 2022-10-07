@@ -20,17 +20,17 @@ struct ColorRGB
 
   ColorRGB& operator+=(const ColorRGB& rhs)
   {
-    this->r = min(1.0, this->r + rhs.r);
-    this->g = min(1.0, this->g + rhs.g);
-    this->b = min(1.0, this->b + rhs.b);
+    this->r = constrain(this->r + rhs.r, 0.0, 1.0);
+    this->g = constrain(this->g + rhs.g, 0.0, 1.0);
+    this->b = constrain(this->b + rhs.b, 0.0, 1.0);
     return *this;
   }
 
   ColorRGB& operator*=(const float rhs)
   {
-    this->r = min(1.0, this->r * rhs);
-    this->g = min(1.0, this->g * rhs);
-    this->b = min(1.0, this->b * rhs);
+    this->r = constrain(this->r * rhs, 0.0, 1.0);
+    this->g = constrain(this->g * rhs, 0.0, 1.0);
+    this->b = constrain(this->b * rhs, 0.0, 1.0);
   }
 
   friend ColorRGB operator+(ColorRGB lhs, const ColorRGB& rhs)
@@ -112,4 +112,3 @@ struct ColorHSV
 };
 
 #endif
-
