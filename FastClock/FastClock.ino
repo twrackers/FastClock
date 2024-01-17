@@ -1,7 +1,9 @@
 #include <StateMachine.h>
 
-//#include "SparkFun_Alphanumeric.h"
-#include "SparkFun_OLED.h"
+// Supports one type of display at a time.
+// Uncomment ONE of the following lines.
+#include "SparkFun_Alphanumeric.h"
+//#include "SparkFun_OLED.h"
 
 #define FAST 12
 #define INTERVAL (60000L / FAST)
