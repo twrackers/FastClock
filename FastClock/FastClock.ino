@@ -2,11 +2,12 @@
 
 // Supports one type of display at a time.
 // Uncomment ONE of the following lines.
-#include "SparkFun_Alphanumeric.h"
+#include "Adafruit_LED.h"
+//#include "SparkFun_Alphanumeric.h"
 //#include "SparkFun_OLED.h"
 
 // Speedup factor over real time
-#define FAST 12
+#define FAST 24
 #define INTERVAL (60000L / FAST)
 
 // Update timer
