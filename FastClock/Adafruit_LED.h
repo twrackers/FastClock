@@ -17,7 +17,7 @@ class Display {
     
     bool begin() {
 
-      if (!m_disp.begin(0x70)) {
+      if (!m_disp.begin(0x77)) {
         return false;
       }
 

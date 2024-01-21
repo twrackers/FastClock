@@ -2,8 +2,8 @@
 
 // Supports one type of display at a time.
 // Uncomment ONE of the following lines.
-#include "Adafruit_LED.h"
-//#include "SparkFun_Alphanumeric.h"
+//#include "Adafruit_LED.h"   
+#include "SparkFun_Alphanumeric.h"
 //#include "SparkFun_OLED.h"
 
 // Speedup factor over real time
