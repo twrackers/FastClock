@@ -1,8 +1,6 @@
 #ifndef _ADAFRUIT_LED__H_
 #define _ADAFRUIT_LED__H_
 
-#include <Wire.h>
-
 #include <Adafruit_GFX.h>
 #include <Adafruit_LEDBackpack.h>
 
