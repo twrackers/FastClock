@@ -20,9 +20,9 @@ This sketch replaces output to serial with one of several small external display
 
 | Header file | Display | Default address | Used address |
 | ----------- | ------- | ------- | ------- |
-| `Adafruit_LED.h` | Adafruit 7-Segment Backpack | 0x70 | 0x77 |
-| `SparkFun_Alphanumeric.h` | SparkFun Qwiic Alphanumeric Display | 0x70 | 0x70 |
-| `SparkFun_OLED.h` | SparkFun Qwiic - OLED - (1.3in., 128x64) | 0x3D | 0x3D |
+| [`Adafruit_LED.h`](https://www.adafruit.com/product/1269) | Adafruit 7-Segment Backpack | 0x70 | 0x77 |
+| [`SparkFun_Alphanumeric.h`](https://www.sparkfun.com/products/16917) | SparkFun Qwiic Alphanumeric Display | 0x70 | 0x70 |
+| [`SparkFun_OLED.h`](https://www.sparkfun.com/products/23453) | SparkFun Qwiic - OLED - (1.3in., 128x64) | 0x3D | 0x3D |
 
 ## FastClock_Stick
 
