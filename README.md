@@ -24,6 +24,6 @@ This sketch replaces output to serial with one of several small external display
 | `SparkFun_Alphanumeric.h` | [SparkFun Qwiic Alphanumeric Display](https://www.sparkfun.com/products/16917) | 0x70 | 0x70 |
 | `SparkFun_OLED.h` | [SparkFun Qwiic - OLED - (1.3in., 128x64)](https://www.sparkfun.com/products/23453) | 0x3D | 0x3D |
 
-## FastClock_Stick
+## FastClock_Stick *(work in progress)*
 
 This sketch adds output to a [SparkFun Qwiic LED Stick](https://www.sparkfun.com/products/18354) to simulate adding an external bank of RGB lights which would be arranged over a model railroad to simulate movement of sunlight across the sky, casting changing shadows as the fast clock advances through daylight hours.
