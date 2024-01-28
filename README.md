@@ -12,7 +12,7 @@ This sketch improves the "quick and dirty" version by eliminating the call to th
 
 ## FastClock_Stateful
 
-This sketch replaces timing code in the `.ino` file with calls to a `StateMachine` object to encapsuate the timing logic.  Again, the clock output is written to the Serial Monitor.
+This sketch replaces timing code in the `.ino` file with calls to a [`StateMachine`](https://github.com/twrackers/StateMachine-library) object to encapsuate the timing logic.  Again, the clock output is written to the Serial Monitor.
 
 ## FastClock
 
