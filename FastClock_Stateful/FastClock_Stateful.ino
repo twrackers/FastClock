@@ -74,7 +74,7 @@ void loop() {
       mn = 0;
       // ... and increment hours, and if necessary...
       if (++hr == 24) {
-        // ... zero hours too.
+        // ... zero hours.
         hr = 0;
       }
     }
