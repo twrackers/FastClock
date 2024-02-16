@@ -21,6 +21,7 @@ class Display {
       if (!m_disp.begin()) {
         return false;
       }
+      m_disp.setBrightness(0);
       m_disp.displayOn();
       return true;
       
