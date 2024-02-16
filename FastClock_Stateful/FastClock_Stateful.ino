@@ -36,7 +36,7 @@ int mn = 0;
 void showTime(const unsigned long when,
               const int hr, const int mn) {
 
-  Serial.print(when);
+  Serial.print(((float) when / 1000.0), 3);
   Serial.print(' ');
   Serial.print(hr / 10);
   Serial.print(hr % 10);
@@ -57,6 +57,7 @@ void setup() {
 
   // Show the starting time.
   unsigned long now = millis();
+  Serial.println("Starting at... ");
   showTime(now, hr, mn);
   
 }
