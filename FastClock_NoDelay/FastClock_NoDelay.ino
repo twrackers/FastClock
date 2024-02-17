@@ -19,13 +19,6 @@
 #define FAST 24
 #define INTERVAL (60000L / FAST)
 
-// Clock time for next update (milliseconds)
-unsigned long update_at;
-
-// Current fast time
-int hr = 0;
-int mn = 0;
-
 void showTime(const unsigned long when,
               const int hr, const int mn) {
 
@@ -38,6 +31,18 @@ void showTime(const unsigned long when,
   Serial.println(mn % 10);
 
 }
+
+// Speedup factor over real time
+// INTERVAL will be in milliseconds.
+#define FAST 24
+#define INTERVAL (60000L / FAST)
+
+// Clock time for next update (milliseconds)
+unsigned long update_at;
+
+// Current fast time
+int hr = 0;
+int mn = 0;
 
 void setup() {
 
