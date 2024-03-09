@@ -22,6 +22,7 @@ class Display {
         return false;
       }
       m_disp.displayOn();
+      m_disp.setBrightness(3);  // 0 to 15
       return true;
       
     }
